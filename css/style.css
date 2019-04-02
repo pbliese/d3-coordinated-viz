@@ -1,0 +1,24 @@
+/*stylesheet*/
+
+/*Graticule lines for reference*/
+.gratLines {
+    fill: none;
+    stroke: rgb(112, 112, 112);
+    stroke-width: 1px;
+}
+/*Graticule background, essentially the ocean*/
+.gratBackground {
+    fill: rgb(102, 153, 255);
+}
+/*Basemap, Europe style*/
+.countries {
+    fill: #FFF;
+    stroke: rgb(175, 175, 175);
+    stroke-width: 1.5px;
+}
+/*Enumeration unit style, EU Countries*/
+.country {
+    fill: rgb(0, 0, 0);
+    stroke: #CCC;
+    stroke-width: .5px;
+}
