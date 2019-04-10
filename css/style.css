@@ -8,7 +8,7 @@
 }
 /*Graticule background, essentially the ocean*/
 .gratBackground {
-    fill: rgb(102, 153, 255);
+    fill: rgb(64, 217, 255);
 }
 /*Basemap, Europe style*/
 .countries {
@@ -18,7 +18,51 @@
 }
 /*Enumeration unit style, EU Countries*/
 .country {
-    fill: rgb(0, 0, 0);
-    stroke: #CCC;
-    stroke-width: .5px;
+    stroke: #000;
+    stroke-width: 0.5px;
+    stroke-linecap: round;
+}
+
+.map {
+    border: medium solid #999;
+    margin: 10px 0 0 20px;
+}
+/*General styling, map border, chart*/
+.chart {
+    float: right;
+    margin: 7px 20px 0 0;
+}
+
+/*Add text shadow to better read title against data, background*/
+.chartTitle {
+    font-family: sans-serif;
+    font-size: 1.4em;
+    font-weight: bold;
+    position: right;
+    text-shadow: -.5px 0 white, 0 .5px white, .5px 0 white, 0 -.5px white;
+}
+
+.chartBackground {
+    fill: rgba(44, 44, 44, 0.2);
+}
+/*General styling for chart parts*/
+.chartFrame {
+    fill: none;
+    stroke: #999;
+    stroke-width: 2px;
+    shape-rendering: crispEdges;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #999;
+    stroke-width: 1px;
+    shape-rendering: crispEdges;
+}
+/*General styling for axis portions of chart*/
+.axis text {
+    font-family: sans-serif;
+    font-size: 0.8em;
+    fill: #999;
 }
